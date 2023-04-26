@@ -1,0 +1,101 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;  
+    min-height: 100vh;
+    font-family: 'poppins',sans-serif;
+    background: rgb(12, 160, 190);
+    background-attachment: fixed;
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,30,246,1) 0%, rgba(150,32,71,1) 100%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#form{
+    width: 400px;
+    background-color:whitesmoke;
+     border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+.form__head{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    
+}
+
+.input__group{
+    width: 100%;
+   height: auto;
+   
+   margin: 8px auto; 
+   display: grid;
+
+}
+
+label{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    border-radius: 0.4rem;
+    border-color: aqua;
+
+}
+
+
+.input__group input:focus{
+    outline: none;
+}
+
+.success__group {
+    border-color:green;
+}
+
+.error-group {
+    border-color:red;
+}
+
+.error,
+.email__error , 
+.errorpassword ,
+.error__confrim--password{
+    font-size: 14px;
+    margin-top: 0.5rem;
+    align-self: first baseline;
+    color: red;
+    text-transform: capitalize;
+    padding-left: 0.5rem;
+}
+
+
+
+
+
+.btn__form{
+    width: 100%;
+     height: auto;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+
+    background-color: blueviolet;
+    color: blanchedalmond;
+    border: none;
+    outline: none;
+}
